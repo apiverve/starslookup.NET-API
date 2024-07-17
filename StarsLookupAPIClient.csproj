@@ -14,7 +14,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
-    <Description>Stars Lookup is a simple tool for looking up star data. It returns the star name, constellation, and more.</Description>
+    <Description>Stars Lookup is a simple tool for looking up star data. It returns the star name, mass, diameter, and more.</Description>
     <RepositoryUrl>https://github.com/apiverve/starslookup.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>stars lookup; stars lookup api; stars lookup tool; stars lookup software; stars lookup service</PackageTags>

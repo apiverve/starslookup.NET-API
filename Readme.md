@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new starslookupQueryOptions {
+var queryOptions = new StarsLookupQueryOptions {
   name = "Sirius"
 };
 ```
@@ -104,7 +104,8 @@ if(response.error != null) {
     "starType": "A1(V)",
     "temp": 9500,
     "color": "0xbaccff"
-  }
+  },
+  "code": 200
 }
 ```
 

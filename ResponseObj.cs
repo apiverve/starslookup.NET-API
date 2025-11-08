@@ -4,54 +4,55 @@ using Newtonsoft.Json;
 
 namespace APIVerve
 {
-public class data
-{
-    [JsonProperty("starName")]
-    public string starName { get; set; }
+    /// <summary>
+    /// Data data
+    /// </summary>
+    public class Data
+    {
+        [JsonProperty("starName")]
+        public string StarName { get; set; }
 
-    [JsonProperty("mass")]
-    public double mass { get; set; }
+        [JsonProperty("mass")]
+        public int Mass { get; set; }
 
-    [JsonProperty("diameter")]
-    public int diameter { get; set; }
+        [JsonProperty("diameter")]
+        public int Diameter { get; set; }
 
-    [JsonProperty("galX")]
-    public double galX { get; set; }
+        [JsonProperty("galX")]
+        public double GalX { get; set; }
 
-    [JsonProperty("galY")]
-    public double galY { get; set; }
+        [JsonProperty("galY")]
+        public double GalY { get; set; }
 
-    [JsonProperty("galZ")]
-    public double galZ { get; set; }
+        [JsonProperty("galZ")]
+        public double GalZ { get; set; }
 
-    [JsonProperty("dist")]
-    public double dist { get; set; }
+        [JsonProperty("dist")]
+        public double Dist { get; set; }
 
-    [JsonProperty("starType")]
-    public string starType { get; set; }
+        [JsonProperty("starType")]
+        public string StarType { get; set; }
 
-    [JsonProperty("temp")]
-    public int temp { get; set; }
+        [JsonProperty("temp")]
+        public int Temp { get; set; }
 
-    [JsonProperty("color")]
-    public string color { get; set; }
+        [JsonProperty("color")]
+        public string Color { get; set; }
 
-}
+    }
+    /// <summary>
+    /// API Response object
+    /// </summary>
+    public class ResponseObj
+    {
+        [JsonProperty("status")]
+        public string Status { get; set; }
 
-public class ResponseObj
-{
-    [JsonProperty("status")]
-    public string status { get; set; }
+        [JsonProperty("error")]
+        public object Error { get; set; }
 
-    [JsonProperty("error")]
-    public object error { get; set; }
+        [JsonProperty("data")]
+        public Data Data { get; set; }
 
-    [JsonProperty("data")]
-    public data data { get; set; }
-
-    [JsonProperty("code")]
-    public int code { get; set; }
-
-}
-
+    }
 }
